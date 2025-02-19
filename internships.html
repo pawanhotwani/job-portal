@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internships</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #e3f2fd;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navbar */
+        header {
+            background: #1976D2;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+        /* Internship Listings */
+        main {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .internship-list {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .internship-list h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1976D2;
+        }
+
+        .internship {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .internship h3 {
+            color: #1976D2;
+        }
+
+        .internship p {
+            margin: 5px 0;
+        }
+
+        .internship button {
+            background: #1976D2;
+            color: white;
+            font-size: 16px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .internship button:hover {
+            background: #1565C0;
+        }
+
+        /* Footer */
+        footer {
+            background: #1976D2;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: auto;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Job Wallah Logo" class="logo">
+            <h1>Job Wallah</h1>
+        </div>
+        <p id="pawan1">(Created & Developed By Pawan Hotwani)</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="query.html">Query</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Internship Listings -->
+    <main>
+        <section class="internship-list">
+            <h2>Available Internships</h2>
+
+            <div class="internship">
+                <h3>Marketing Intern</h3>
+                <p>Company: ABC Corp</p>
+                <p>Location: Delhi</p>
+                <p>Stipend: ₹8,000/month</p>
+                <button>Apply Now</button>
+            </div>
+
+            <div class="internship">
+                <h3>Software Engineer Intern</h3>
+                <p>Company: Yahoo</p>
+                <p>Location: Mumbai</p>
+                <p>Stipend: ₹25,000/month</p>
+                <button>Apply Now</button>
+            </div>
+
+            <div class="internship">
+                <h3>Data Science Intern</h3>
+                <p>Company: XYZ Analytics</p>
+                <p>Location: Bangalore</p>
+                <p>Stipend: ₹45,000/month</p>
+                <button>Apply Now</button>
+            </div>
+
+            <div class="internship">
+                <h3>Human Resource (HR) Intern</h3>
+                <p>Company: Oracle</p>
+                <p>Location: Nagpur</p>
+                <p>Stipend: ₹55,000/month</p>
+                <button>Apply Now</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Job Wallah. All rights reserved.</p>
+        <p>Created & Developed By <strong>Pawan Hotwani</strong></p>
+    </footer>
+
+</body>
+</html>

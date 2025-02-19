@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Job Wallah Logo" class="logo">
+            <h1>Job Wallah</h1>
+        </div>
+        <p id="pawan1">(Created & Developed By Pawan Hotwani)</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="login.html">Login</a></li>
+                <!-- <li><a href="signup.html">Sign Up</a></li> -->
+                <li><a href="query.html">Query</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="hero">
+        <h2>Find Your Dream Internship</h2>
+        <input type="text" id="searchBox" placeholder="Search by role, company, or location" onkeyup="searchInternship()">
+    </section>
+
+    <section class="internship-list">
+        <h2>Latest Internships</h2>
+        <section class="internship-list"> 
+        <div class="internship" data-title="Web Development Intern" data-company="Facebook" data-location="Remote">
+            <h3>Web Development Intern</h3>
+            <p>Company: Facebook</p>
+            <p>Location: Remote</p>
+            <p>Stipend: ₹35,000/month</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="internship" data-title="Software Engineer" data-company="Yahoo" data-location="Mumbai">
+            <h3>Software Engineer</h3>
+            <p>Company: Yahoo</p>
+            <p>Location: Mumbai</p>
+            <p>Stipend: ₹25,000/month</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="internship" data-title="Data Science Job" data-company="Google" data-location="Bangalore">
+            <h3>Data Science Job</h3>
+            <p>Company: XYZ Analytics</p>
+            <p>Location: Bangalore</p>
+            <p>Stipend: ₹45,000/month</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="internship" data-title="Human Resource (HR)" data-company="Oracle" data-location="Nagpur">
+            <h3>Human Resource (HR)</h3>
+            <p>Company: Oracle</p>
+            <p>Location: Nagpur</p>
+            <p>Stipend: ₹55,000/month</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="internship" data-title="Android App Developer" data-company="Tecent INC" data-location="Pune">
+            <h3>Android App Developer</h3>
+            <p>Company: Tencent INC</p>
+            <p>Location: Pune</p>
+            <p>Stipend: ₹85,000/month</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="internship" data-title="Database Manager" data-company="Times Of India" data-location="Mumbai">
+            <h3>Database Manager</h3>
+            <p>Company: Times Of India</p>
+            <p>Location: Mumbai</p>
+            <p>Stipend: ₹62,000/month</p>
+            <button>Apply Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Job Wallah (Created & Developed By Pawan Hotwani). All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
